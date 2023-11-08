@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Foodie App - Order Delicious Meals</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Welcome to Foodie App</h1>
+        <p>Order your favorite meals with ease.</p>
+        <a href="#download" class="cta-button">Download Now</a>
+    </section>
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Explore a variety of restaurants.</li>
+            <li>Order food with a few taps.</li>
+            <li>Track your delivery in real-time.</li>
+            <li>Secure and easy payment options.</li>
+        </ul>
+    </section>
+    <section id="download">
+        <h2>Download the App</h2>
+        <p>Get started and enjoy the convenience of ordering delicious food at your fingertips.</p>
+        <a href="#download" class="cta-button">Download Now</a>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Contact our support team.</p>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </section>
+    <footer>
+        <p>&copy; 2023 Foodie App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+Css 
+body {
+font-family: Arial, sans-serif;
+    background-image: url("hd.avif");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#hero {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Add more styles for other sections as needed */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
