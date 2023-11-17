@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+.download {
+    text-align: center;
+    padding: 40px;
+}
+
+.download h2 {
+    margin-bottom: 20px;
+}
+
+.app-links {
+    margin-top: 20px;
+}
+
+.app-links a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.app-store-link {
+    background-color: #0070c9;
+}
+
+.google-play-link {
+    background-color: #3aa359;
+}
